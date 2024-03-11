@@ -42,7 +42,7 @@ function evaluarEncriptacion() {
   // EVALUAR INPUT Y ENCRIPTAR
 
   if (input.trim() === "") {
-    alert("No ha ingresado nada en el input");
+    alert("No has ingresado ningun texto");
   } else if (verificarMinusculasCaracteres(input) == false) {
     alert("Solo se admiten textos en minusculas");
   } else {
