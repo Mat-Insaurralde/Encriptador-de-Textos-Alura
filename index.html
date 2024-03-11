@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="Styles.css" />
+    <title>Challenge Alura-Javier Insaurralde</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <img src="Img/Logo.png" alt="logo de alura" />
+      </header>
+
+      <div class="contenedor">
+        <div class="input">
+          <input
+            type="text"
+            class="input-text"
+            placeholder="Ingrese el texto aqui"
+          />
+        </div>
+
+        <div class="buttons">
+          <p>
+            <img
+              src="Img/bi_exclamation-circle-fill.png"
+              alt=""
+              class="signo"
+            />
+            Solo letras minusculas y sin acento
+          </p>
+
+          <button onclick="evaluarEncriptacion();">Encriptar</button>
+          <button onclick="evaluarDesencriptacion();">Desencriptar</button>
+        </div>
+      </div>
+
+      <section id="ocultar" class="colum">
+        <img
+          src="Img/buscando.jpg"
+          class="imagen-buscando"
+          alt="imagen buscando la frase"
+        />
+
+        <div id="height" class="parrafos">
+          <p>Ningún mensaje fue encontrado</p>
+          <p>Ingresa el texto que desees encriptar o desencriptar</p>
+          <p id="resultado"></p>
+        </div>
+
+        <div id="copiar">
+          <button class="button-copiar">Copiar</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        © 2024 Encriptador. Javier Insaurralde.
+        <a
+          href="https://www.linkedin.com/in/javier-matias-insaurralde-3aa783274/"
+          target="_blank"
+          >Contáctanos</a
+        >
+      </p>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
